@@ -1,4 +1,4 @@
-# Example for Why can I not mix Guid and string members in a ComVisible struct?
+# Example for [Why can I not mix Guid and string members in a ComVisible struct?](https://stackoverflow.com/questions/46823219/why-can-i-not-mix-guid-and-string-members-in-a-comvisible-struct)
 
 Build, then run the commands in Register.bat as administrator mutatis mutandis to register.  Run the server first as a regular user, then run the client.  If the struct has both a guid and string member and is returned as an array, I experience an exception in the server process when attempting to marshal from managed to unmanaged memory.
 
